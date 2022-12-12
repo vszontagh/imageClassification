@@ -1,4 +1,5 @@
 ### Pneumonia imageClassification with CNNs
+< img src = 'images/africa.png' \>
 
 ### Business Problem
 Pneumonia is an infectious disease that causing inflammation in the lungs. It kills more children than any other infectious disease. Every year it claims the live of more then 700,000 children under the age of five globally. These deaths would be preventable with early diagnostic and treatment.
@@ -15,9 +16,12 @@ I will use recall score as my main evaluation metrics, as it is more costly to m
 
 
 ### Final Model
-I applied regularization, early stopping
+Best Model
+Model1
+* `Test Recall: `  86.14%
+* `Test Accuracy: ` 96.27%
 
-You want to see the loss decreasing steadily and the accuracy increasing for both the train and validation.
+This model only has 1 convolution layer with L2 regularization, BatchNormalization and two dense layers. It has high accuracy and high recall scores, which indicates that the model can correctly identify whether a patient has pneumonia or not.
 
 ## Conclusions
 This model has high accuracy and high recall scores, which indicates that the model can correctly identify wheather a patient has pneumonia or not after checking the X-Ray images.
