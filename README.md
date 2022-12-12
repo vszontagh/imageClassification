@@ -16,8 +16,8 @@ The dataset is imbalance, this I will address this later on with augmentation, t
 I will use recall score as my main evaluation metrics, as it is more costly to misclassify someone that they have no pneumonia when they are. Besides this score I will also monitor the model's accuracy.
 
 #### Baseline Model
-<img src='/images/recall'>
-<img src='/images/accuracy'>
+<img src='/images/recall.png'>
+<img src='/images/accuracy.png'>
 
 The first neural networks model is doing pretty well, with high recall score for validation (97.44%) and for the test (88.66%). This is a good result, and it shows that the neural networks model is able to learn from data and generalize well. The high recall score for the validation set suggests that the model is correctly classifying most of the examples in the validation set.
 The validation score and the training score were very high. The loss also decreasing, however the validation loss starts to separate and increase, this might be an indication that the model is overfitting. To stop the model from overfitting I will try to apply regularization in the next model with more Conv2D layer.
