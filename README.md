@@ -1,10 +1,7 @@
 ### Pneumonia imageClassification with CNNs
-<<<<<<< HEAD
-< img src = 'images/africa.png' \>
-=======
-<img src='/images/africa.png'>
 
->>>>>>> cb7071e54b19e5a6a7d83c6ba47bbeafb728cd8c
+<img width=700 height=350 src='/images/africa.png'>
+
 ### Business Problem
 Pneumonia is an infectious disease that causing inflammation in the lungs. It kills more children than any other infectious disease. Every year it claims the live of more then 700,000 children under the age of five globally. These deaths would be preventable with early diagnostic and treatment.
 
@@ -19,8 +16,9 @@ The dataset is imbalance, this I will address this later on with augmentation, t
 I will use recall score as my main evaluation metrics, as it is more costly to misclassify someone that they have no pneumonia when they are. Besides this score I will also monitor the model's accuracy.
 
 #### Baseline Model
-<img src='images/recall>'
-<img src='images/accuracy'>
+<img src='/images/recall>'
+<img src='/images/accuracy'>
+
 The first neural networks model is doing pretty well, with high recall score for validation (97.44%) and for the test (88.66%). This is a good result, and it shows that the neural networks model is able to learn from data and generalize well. The high recall score for the validation set suggests that the model is correctly classifying most of the examples in the validation set.
 The validation score and the training score were very high. The loss also decreasing, however the validation loss starts to separate and increase, this might be an indication that the model is overfitting. To stop the model from overfitting I will try to apply regularization in the next model with more Conv2D layer.
 
