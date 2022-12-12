@@ -1,5 +1,10 @@
 ### Pneumonia imageClassification with CNNs
+<<<<<<< HEAD
 < img src = 'images/africa.png' \>
+=======
+<img src='/images/africa.png'>
+
+>>>>>>> cb7071e54b19e5a6a7d83c6ba47bbeafb728cd8c
 ### Business Problem
 Pneumonia is an infectious disease that causing inflammation in the lungs. It kills more children than any other infectious disease. Every year it claims the live of more then 700,000 children under the age of five globally. These deaths would be preventable with early diagnostic and treatment.
 
