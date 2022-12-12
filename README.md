@@ -26,5 +26,3 @@ This model only has 1 convolution layer with L2 regularization, BatchNormalizati
 ## Conclusions
 This model has high accuracy and high recall scores, which indicates that the model can correctly identify wheather a patient has pneumonia or not after checking the X-Ray images.
 With this model any organization would cut down on time spent evaluating these images, it would also speed up the process of diagnostic, which would lead more availably doctors for the patients and after diagnosis they could start early treatment. Which would directly lead to more pediatric patient recovering from this infection and this also decreases the mortality rate.
-
-# Limitations and Next Steps
